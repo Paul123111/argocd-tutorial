@@ -16,5 +16,5 @@ spec:
         app: nginx
     spec:
       containers:
-      - image: us-central1-docker.pkg.dev/noname-artifacts/nns-docker/nginx@sha256:06233d0d575146461dd91080d3b31382de01f0e92150cbd442cfba7b0dda7a6a
+      - image: rhel8/nginx-122
         name: nginx
